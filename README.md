@@ -1,13 +1,4 @@
 
-
-
-## <Note>
-
-
- 
- 
-
-
 ​# Note
 ## Description
  
