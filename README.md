@@ -32,10 +32,8 @@
 ## user Stories 
 ​
 Main Page where you can see a scrollable list of Notes.
- ![List of Notes](mainList.png)
- 
- Details Page. Here you can edit existing Note or create new one.
- ![Note Details](details.png)
+Details Page. Here you can edit existing Note or create new one.
+
 
 ​
 ## Framework
