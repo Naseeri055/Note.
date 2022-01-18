@@ -21,8 +21,10 @@ class TodosVC: UIViewController {
         self.todosArray = TodoStorage.getTodos()
         
         super.viewDidLoad()
-        //        var m = Math()
         
+        
+        
+        //        var m = Math()
         //        do {
         //            var r = try m.divide(num1: 40, num2: 10)
         //            print(r)

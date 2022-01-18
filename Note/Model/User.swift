@@ -10,7 +10,7 @@ import Foundation
 struct User {
     var id = ""
     var name = ""
-//    var imageUrl = ""
+    var imageUrl = ""
     var email = ""
     
 }

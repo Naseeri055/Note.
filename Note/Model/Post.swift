@@ -7,11 +7,12 @@
 
 import Foundation
 import Firebase
+
 struct Post {
     var id = ""
     var title = ""
     var description = ""
- //   var imageUrl = ""
+    var imageUrl = ""
     var user:User
     var createdAt:Timestamp?
     
