@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7A13B232278D0AAF00C82277 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A13B231278D0AAF00C82277 /* NoteViewController.swift */; };
 		7A190800278430A200988FD7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A1907FF278430A200988FD7 /* GoogleService-Info.plist */; };
 		7A1908032784316300988FD7 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7A1908022784316300988FD7 /* FirebaseAuth */; };
 		7A1908052784316300988FD7 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 7A1908042784316300988FD7 /* FirebaseFirestore */; };
@@ -22,6 +21,12 @@
 		7A9213532782F02A00FAC523 /* TodoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9213522782F02A00FAC523 /* TodoCell.swift */; };
 		7A9213572782F0CA00FAC523 /* TodoStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9213562782F0CA00FAC523 /* TodoStorage.swift */; };
 		7A92135A2782F17000FAC523 /* TodosModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A9213582782F17000FAC523 /* TodosModel.xcdatamodeld */; };
+		7A94F8D9279759AD0013F6ED /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A94F8D8279759AC0013F6ED /* NotesViewController.swift */; };
+		7A94F8DB279759D60013F6ED /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A94F8DA279759D60013F6ED /* NoteCell.swift */; };
+		7A94F8DD27975A080013F6ED /* AddNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A94F8DC27975A080013F6ED /* AddNoteViewController.swift */; };
+		7A94F8DF27975A510013F6ED /* NoteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A94F8DE27975A510013F6ED /* NoteDetailViewController.swift */; };
+		7A94F8E127975AAD0013F6ED /* NoteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A94F8E027975AAD0013F6ED /* NoteCell.xib */; };
+		7A94F8E527975AFF0013F6ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A94F8E427975AFF0013F6ED /* LaunchScreen.storyboard */; };
 		7ABA9DC12786C6D600F96312 /* Localozable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7ABA9DC32786C6D600F96312 /* Localozable.strings */; };
 		CE03E3DF276F011C00FDDB37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE03E3DE276F011C00FDDB37 /* AppDelegate.swift */; };
 		CE03E3E1276F011C00FDDB37 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE03E3E0276F011C00FDDB37 /* SceneDelegate.swift */; };
@@ -34,7 +39,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7A13B231278D0AAF00C82277 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
 		7A1907FF278430A200988FD7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7A19080B27843F4900988FD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		7A6703A427831F59005A5F11 /* TodoSignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoSignUpVC.swift; sourceTree = "<group>"; };
@@ -47,6 +51,12 @@
 		7A9213522782F02A00FAC523 /* TodoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCell.swift; sourceTree = "<group>"; };
 		7A9213562782F0CA00FAC523 /* TodoStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoStorage.swift; sourceTree = "<group>"; };
 		7A9213592782F17000FAC523 /* TodosModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TodosModel.xcdatamodel; sourceTree = "<group>"; };
+		7A94F8D8279759AC0013F6ED /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		7A94F8DA279759D60013F6ED /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
+		7A94F8DC27975A080013F6ED /* AddNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteViewController.swift; sourceTree = "<group>"; };
+		7A94F8DE27975A510013F6ED /* NoteDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailViewController.swift; sourceTree = "<group>"; };
+		7A94F8E027975AAD0013F6ED /* NoteCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoteCell.xib; sourceTree = "<group>"; };
+		7A94F8E427975AFF0013F6ED /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7ABA9DC22786C6D600F96312 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localozable.strings; sourceTree = "<group>"; };
 		7ACBDB0A27870C4700E0B520 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localozable.strings; sourceTree = "<group>"; };
 		7ACBDB0B27870E3800E0B520 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
@@ -80,7 +90,12 @@
 		7A13B22F278D08DD00C82277 /* New Group */ = {
 			isa = PBXGroup;
 			children = (
-				7A13B231278D0AAF00C82277 /* NoteViewController.swift */,
+				7A94F8D8279759AC0013F6ED /* NotesViewController.swift */,
+				7A94F8DA279759D60013F6ED /* NoteCell.swift */,
+				7A94F8DC27975A080013F6ED /* AddNoteViewController.swift */,
+				7A94F8DE27975A510013F6ED /* NoteDetailViewController.swift */,
+				7A94F8E027975AAD0013F6ED /* NoteCell.xib */,
+				7A94F8E427975AFF0013F6ED /* LaunchScreen.storyboard */,
 			);
 			path = "New Group";
 			sourceTree = "<group>";
@@ -230,10 +245,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE03E3EB276F011D00FDDB37 /* LaunchScreen.storyboard in Resources */,
+				7A94F8E527975AFF0013F6ED /* LaunchScreen.storyboard in Resources */,
 				7A190800278430A200988FD7 /* GoogleService-Info.plist in Resources */,
 				CE03E3E8276F011D00FDDB37 /* Assets.xcassets in Resources */,
 				CE03E3E6276F011C00FDDB37 /* Main.storyboard in Resources */,
 				7ABA9DC12786C6D600F96312 /* Localozable.strings in Resources */,
+				7A94F8E127975AAD0013F6ED /* NoteCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,9 +261,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A13B232278D0AAF00C82277 /* NoteViewController.swift in Sources */,
 				7A92134B2782EFA400FAC523 /* TodosVC.swift in Sources */,
+				7A94F8DF27975A510013F6ED /* NoteDetailViewController.swift in Sources */,
 				7A6703A727831F7B005A5F11 /* TodoLoginVC.swift in Sources */,
+				7A94F8DD27975A080013F6ED /* AddNoteViewController.swift in Sources */,
+				7A94F8DB279759D60013F6ED /* NoteCell.swift in Sources */,
 				CE03E4142770758800FDDB37 /* Post.swift in Sources */,
 				7A92135A2782F17000FAC523 /* TodosModel.xcdatamodeld in Sources */,
 				7A92134F2782EFEB00FAC523 /* TodoDetailsVC.swift in Sources */,
@@ -255,6 +274,7 @@
 				7A6703A927831FA2005A5F11 /* TodolandingVC.swift in Sources */,
 				CE03E3DF276F011C00FDDB37 /* AppDelegate.swift in Sources */,
 				CE03E416277075F300FDDB37 /* User.swift in Sources */,
+				7A94F8D9279759AD0013F6ED /* NotesViewController.swift in Sources */,
 				CE03E3E1276F011C00FDDB37 /* SceneDelegate.swift in Sources */,
 				7A6703A527831F59005A5F11 /* TodoSignUpVC.swift in Sources */,
 				7A9213532782F02A00FAC523 /* TodoCell.swift in Sources */,
